@@ -15,10 +15,10 @@
     <ul>
   <li><a href="#acceuil">Acceuil</a></li>
   <li><a href="#article">Article</a></li>
-  <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">Commande</a>
-    <div class="dropdown-content">
-      <a href="#beton">Bétons</a>
+  <li class="drop">
+    <a href="javascript:void(0)" class="commande">Commande</a>
+    <div class="deroule">
+      <a href="beton.php">Bétons</a>
       <a href="#granulat">Granulats</a>
       <a href="#ciment">Ciments</a>
     </div>
