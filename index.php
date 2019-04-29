@@ -11,21 +11,14 @@
 </head>
 
 <body>
-
     <ul>
   <li><a href="#acceuil">Acceuil</a></li>
   <li><a href="#article">Article</a></li>
   <li class="drop">
-    <a href="javascript:void(0)" class="commande">Commande</a>
-    <div class="deroule">
-      <a href="beton.php">Bétons</a>
-      <a href="#granulat">Granulats</a>
-      <a href="#ciment">Ciments</a>
-    </div>
+    <a href="#commande" class="commande">Commande</a>
   </li>
   <li><a href="#client">Client</a></li>
-</ul>
-
+</ul><!--nav-->
 </body>
      
 </html>
