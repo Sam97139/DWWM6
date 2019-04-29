@@ -1,3 +1,4 @@
+
 <form name='monform' action='' method='post'>
 <pre>
  <label>Produit</label><input type='text' name='num_produit'>
@@ -6,5 +7,4 @@
 </pre>
 <input type='submit' name='envoyer' value='valider'>
 </form>
-
 
