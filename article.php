@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+
+
 <style>
 * {
   box-sizing: border-box;
@@ -65,9 +68,31 @@ input[type=submit]:hover {
     margin-top: 0;
   }
 }
+    
+    .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}/*footer*/
 </style>
 </head>
+
+
 <body>
+    <ul>
+  <li><a href="index.php">Acceuil</a></li>
+  <li><a href="article.php">Article</a></li>
+  <li class="drop">
+    <a href="#commande" class="commande">Commande</a>
+  </li>
+  <li><a href="#client">Client</a></li>
+</ul><!--nav-->
+
+
 
 <h2>Articles</h2>
 
@@ -112,5 +137,17 @@ input[type=submit]:hover {
   </form>
 </div>
 
+
+<div class="footer">
+  <p>Footer</p>
+</div><!--footer-->
+
+
+<link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </body>
 </html>
