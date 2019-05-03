@@ -69,45 +69,41 @@ input[type=submit]:hover {
 </head>
 <body>
 
-<h2>Responsive Form</h2>
-<p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other.</p>
+<h2>Articles</h2>
+
 
 <div class="container">
   <form action="/action_page.php">
   <div class="row">
     <div class="col-25">
-      <label for="fname">First Name</label>
+      <label for="article">Article</label>
     </div>
     <div class="col-75">
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      <input type="text" id="fname" name="firstname" placeholder="Designation...">
     </div>
   </div>
-  <div class="row">
+   <form>
+  Quantité (Minimum 1 Max 300):
+  <input type="number" name="quantité" min="1" max="300">
+</form> 
+     <div class="row">
     <div class="col-25">
-      <label for="lname">Last Name</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="country">Country</label>
+      <label for="unité">Unité</label>
     </div>
     <div class="col-75">
       <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
+        <option value="M²">M²</option>
+        <option value="Kg">Kg</option>
+        <option value="Mètre">Mètre</option>
       </select>
     </div>
   </div>
   <div class="row">
     <div class="col-25">
-      <label for="subject">Subject</label>
+      <label for="subject">Commentaires</label>
     </div>
     <div class="col-75">
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      <textarea id="subject" name="subject" placeholder="Inscrire vos remarques ici..." style="height:200px"></textarea>
     </div>
   </div>
   <div class="row">
