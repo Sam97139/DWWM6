@@ -3,7 +3,7 @@
 <head>
    
     <meta charset="UTF-8">
-        <style>
+        <style>/*footer*/
 .footer {
    position: fixed;
    left: 0;
@@ -29,8 +29,8 @@
 
 <body>
     <ul>
-  <li><a href="#acceuil">Acceuil</a></li>
-  <li><a href="article">Article</a></li>
+  <li><a href="index.php">Acceuil</a></li>
+  <li><a href="article.php">Article</a></li>
   <li class="drop">
     <a href="#commande" class="commande">Commande</a>
   </li>
@@ -80,7 +80,7 @@
 
 <div class="footer">
   <p>Footer</p>
-</div><!--footer>
+</div><!--footer-->
 </body>
      
 </html>
