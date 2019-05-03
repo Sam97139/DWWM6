@@ -34,7 +34,7 @@
   <li class="drop">
     <a href="#commande" class="commande">Commande</a>
   </li>
-  <li><a href="#client">Client</a></li>
+  <li><a href="client.php">Client</a></li>
 </ul><!--nav-->
 
 <div class="container">
