@@ -40,4 +40,7 @@ li.drop {
   display: block;
 } /* nav bar */
 
-
+#myCarousel{
+    width: 50%;
+position: fixed;
+}
